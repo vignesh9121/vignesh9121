@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+.navbar{
+    width: 86%;
+    display: flex;
+    margin-left: -2%;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo{
+    width: 30%;
+    cursor: pointer;
+    margin-top: 0%;
+    margin-left: 0%;
+}
+.navbar:hover .logo{
+    left: 25%;
+}
+.ul{
+    margin-top: -4%;
+    margin-left: 5%S;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: goldenrod;
+    margin-top: 50%;
+    transition: .4s ease;
+}
+ul li a:hover{
+    color: rgb(242, 158, 13);
+}
+.info{
+    margin-left: 8%;
+    margin-top: -1%;
+}
+.info{
+    font-size: 25px;
+    color: whitesmoke;
+}
+.info h3{
+    margin-left: 10%;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+.info span{
+    color: green;
+}
+.info:hover span{
+    color: chocolate;
+}
+.info:hover h3{
+    color: purple;
+}
+.social{
+    height: 10%;
+    width: 5%;
+    cursor: pointer;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+.media{
+    position: absolute;
+    margin-top:-2% ;
+    margin-left: -2%;
+    height: 10%;
+    width: 20%;
+}
+.info p{
+    color: red;
+    margin-top: -3%;
+}
